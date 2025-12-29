@@ -40,6 +40,7 @@ Before diving into the math, the logic is best understood using the famous "Pain
 Example Output
 The script prints the step-by-step calculation:
 
+```bash
 --- Public Parameters ---
 Prime Number (p): 23
 Generator (g): 5
@@ -57,8 +58,7 @@ The secret Alice discovered: 2
 The secret Bob discovered: 2
 
 SUCCESS! Both parties agreed on the same key.
-
----
+```
 
 ## Mathematical Foundation
 
