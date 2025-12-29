@@ -37,7 +37,7 @@ Before diving into the math, the logic is best understood using the famous "Pain
 
 *Result: Both have the same color (Brown), but an eavesdropper who only saw Yellow, Orange, and Green cannot determine the secret components to recreate Brown.*
 
-Example Output
+Example Output  
 The script prints the step-by-step calculation:
 
 ```bash
