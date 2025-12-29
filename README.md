@@ -37,6 +37,27 @@ Before diving into the math, the logic is best understood using the famous "Pain
 
 *Result: Both have the same color (Brown), but an eavesdropper who only saw Yellow, Orange, and Green cannot determine the secret components to recreate Brown.*
 
+Example Output
+The script prints the step-by-step calculation:
+
+--- Public Parameters ---
+Prime Number (p): 23
+Generator (g): 5
+
+--- Secret Keys (Not to be shared with anyone) ---
+Alice's Secret Key (a): 6
+Bob's Secret Key (b): 15
+
+--- Public Keys (Sent to Each Other) ---
+Alice is sending to Bob (A): 8
+Bob is sending to Alice (B): 19
+
+--- Result: Calculated Shared Secret ---
+The secret Alice discovered: 2
+The secret Bob discovered: 2
+
+SUCCESS! Both parties agreed on the same key.
+
 ---
 
 ## Mathematical Foundation
