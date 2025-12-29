@@ -11,7 +11,7 @@ def power(base, exp, mod):
 # STEP 1: Determining Shared Parameters (Public)
 # In real life, these numbers are 2048-bit or 4096-bit long.
 # We are choosing small numbers for clarity.
-prime_p = 23   # Prime Number (Modulus)
+prime_p = 27644437   # Prime Number (Modulus)
 generator_g = 5 # Generator (Base)
 
 print(f"--- Public Parameters ---")
@@ -20,8 +20,8 @@ print(f"Generator (g): {generator_g}\n")
 
 # STEP 2: Selecting Private Keys
 # Only the individuals themselves know these numbers.
-alice_private_a = 6  # Alice's secret number (a)
-bob_private_b = 15   # Bob's secret number (b)
+alice_private_a = random.randint(1, prime_p-1)  # Alice's secret number (a)
+bob_private_b = random.randint(1, prime_p-1)   # Bob's secret number (b)
 
 print(f"--- Secret Keys (Not to be shared with anyone) ---")
 print(f"Alice's Secret Key (a): {alice_private_a}")
